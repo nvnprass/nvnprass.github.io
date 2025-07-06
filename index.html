@@ -2,19 +2,361 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Prasetyo's Portfolio</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        padding: 2rem;
-      }
-      h1 {
-        color: #007acc;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello 😁 I'm Novan</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </head>
-  <body>
-    <h1>Hello, I'm Prasetyo</h1>
-    <p>I'm a developer passionate about web and tech.</p>
+  <body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a
+            class="navbar-brand"
+            href="https://nvnprass.github.io/"
+            target="_blank"
+            title="Novan's Website"
+            ><img src="./assets/img/nav.png" alt="Novan's Logo"
+          /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#home" class="hash"
+                ><span
+                  class="glyphicon glyphicon-home"
+                  aria-hidden="true"
+                ></span>
+                Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="hash"
+                ><span
+                  class="glyphicon glyphicon-info-sign"
+                  aria-hidden="true"
+                ></span>
+                About</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="hash"
+                ><span
+                  class="glyphicon glyphicon-book"
+                  aria-hidden="true"
+                ></span>
+                Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#links" class="hash"
+                ><span
+                  class="glyphicon glyphicon-envelope"
+                  aria-hidden="true"
+                ></span>
+                Links</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <section id="home" class="main-nav">
+      <div class="heading dark-bg">
+        <div class="row">
+          <div class="col-sm-12 head">
+            <div class="logo">
+              <img src="./assets/img/nav.png" alt="Novan's Logo" />
+            </div>
+            <h2 class="stm-font" style="color: white">
+              IT Specialist (Programming, Networking, Hardware)
+            </h2>
+            <h2 class="stm-font mt-0" style="color: white">
+              & Engineering Drafter
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <nav>
+            <ul class="list-inline links">
+              <li>
+                <a
+                  class="btn btn-default btn-lg"
+                  href="https://github.com/nvnprass/"
+                  title="Novan Pras on GitHub"
+                  target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="btn btn-default btn-lg"
+                  href="https://www.sruputkode.com/"
+                  title="Novan's Blog"
+                  target="_blank"
+                  ><i class="fa fa-rss"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="about" class="main-nav">
+        <h1>
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          About
+        </h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <img
+              src="./assets/img/myavatar.png"
+              alt="description"
+              title="tool tip"
+              class="img-circle shadow up-hover avatar"
+            />
+          </div>
+          <div class="col-sm-8">
+            <h2 class="text-primary stm-font">A brief overview of myself</h2>
+            <p>
+              Nice to meet you 😁, and thank you 🙏 for visiting my simple
+              website. This website was created as a way to introduce myself.
+              Let me start with my name — I am Novan Prastyo Adityo. I have a
+              deep interest in the world of technology, which encompasses
+              various fields such as programming, networking, and other related
+              disciplines. I am also open to learning new things beyond the
+              realm of technology. There is still so much I have yet to learn,
+              which is why I strive to continuously grow, develop myself, and
+              contribute value to others.
+            </p>
+            <h2 class="text-primary stm-font">Technical Skills</h2>
+            <ul>
+              <li>
+                Networking : Network (LAN/WAN) installation, configuration and
+                troubleshooting, MikroTik Router
+              </li>
+              <li>Server Admin : Linux Server and Windows Server</li>
+              <li>Programming : PHP - (Laravel), Python,VB.Net, JavaScript</li>
+              <li>Databases (SQL) : MySQL, SQLite</li>
+              <li>
+                Support: Hardware/software troubleshooting, IT documentation
+              </li>
+            </ul>
+            <h2 class="text-primary stm-font">Software Proficiency</h2>
+            <ul>
+              <li>
+                AutoCAD, Adobe Photoshop, Microsoft Office Suite (Word, Excel,
+                PowerPoint)
+              </li>
+            </ul>
+            <h2 class="text-primary stm-font">Soft Skills</h2>
+            <ul>
+              <li>
+                Problem Solving, Team Collaboration, Adaptability, Attention to
+                Detail, Self-Motivation
+              </li>
+            </ul>
+            <h2 class="text-primary stm-font">Certification</h2>
+            <ul>
+              <li>
+                MikroTik Certified Network Associate (MTCNA)<br />
+                <small style="padding-left: 1em"
+                  >Certificate No : 2505NA6063 | Issued By : MikroTik</small
+                >
+              </li>
+              <li>
+                IDN MikroTik Training and Certification Exam<br />
+                <small style="padding-left: 1em"
+                  >Certificate No : CERT0495716176 | Issued By :
+                  ID-Networkers</small
+                >
+              </li>
+            </ul>
+            <h2 class="text-primary stm-font">
+              Technologies I am familiar with
+            </h2>
+            <img
+              src="./assets/img/tech-js.png"
+              alt="Javascript"
+              title="Javascript"
+            />
+            <img
+              src="./assets/img/tech-jquery.png"
+              alt="Jquery"
+              title="Jquery"
+            />
+            <img
+              src="./assets/img/tech-react.png"
+              alt="React"
+              title="React & React Native"
+            />
+            <img src="./assets/img/tech-php.png" alt="PHP" title="PHP" />
+            <img
+              src="./assets/img/tech-laravel.png"
+              alt="Laravel"
+              title="Laravel"
+            />
+            <img
+              src="./assets/img/tech-python.png"
+              alt="Python"
+              title="Python"
+            />
+            <img src="./assets/img/tech-vb.png" alt="VBNet" title="VBNet" />
+            <img
+              src="./assets/img/tech-mikrotik.png"
+              alt="MikroTik"
+              title="MikroTik"
+            />
+            <img
+              src="./assets/img/tech-mysql.png"
+              alt="MySQL"
+              title="MySQL or MariaDB"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="main-nav">
+        <!--start portfolio-->
+        <h1>
+          <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+          Portfolio
+        </h1>
+        <div class="row">
+          <!---start row-->
+
+          <div class="col-sm-6 col-md-6">
+            <!--start element 1-->
+            <div class="thumbnail shadow up-hover">
+              <img src="./assets/img/porto-1.PNG" />
+              <div class="cust-caption">
+                <a href="#"
+                  ><h3 class="stm-font">Point of Sales (Desktop)</h3></a
+                >
+                <p>
+                  A desktop POS application built with VB.NET on .NET 8, using
+                  MariaDB as the database.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end element 1-->
+
+          <div class="col-sm-6 col-md-6">
+            <!--start element 2-->
+            <div class="thumbnail shadow up-hover">
+              <img src="./assets/img/porto-2.PNG" />
+              <div class="cust-caption">
+                <a href="#"><h3 class="stm-font">Accounting App (Web)</h3></a>
+                <p>
+                  A web-based accounting system developed with the Laravel
+                  framework, jQuery, and various supporting libraries.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <!--start element 2-->
+            <div class="thumbnail shadow up-hover">
+              <img src="./assets/img/porto-3.PNG" />
+              <div class="cust-caption">
+                <a href="#"><h3 class="stm-font">Company Profile (Web)</h3></a>
+                <p>
+                  A company profile website designed to serve as a platform for
+                  introducing and delivering comprehensive information about a
+                  company to the public.
+                  <a href="https://www.serimindonesia.com/" target="_blank"
+                    >Company-1</a
+                  >
+                  -
+                  <a href="https://megafoamworks.com/" target="_blank"
+                    >Company-2</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <!--start element 2-->
+            <div class="thumbnail shadow up-hover">
+              <img src="./assets/img/porto-4.PNG" />
+              <div class="cust-caption">
+                <a href="https://github.com/nvnprass/quickchat"
+                  ><h3 class="stm-font">Whatsapp Quick Chat (Mobile)</h3></a
+                >
+                <p>
+                  A mobile application I developed using React Native. This app
+                  was created as part of my learning process with React Native
+                  and SQLite, and its main function is to enable chatting
+                  without the need to save the phone number to contacts.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end element 2-->
+        </div>
+        <!---end row-->
+      </section>
+      <!--end portfolio-->
+    </div>
+    <!--end container-->
+
+    <footer id="links" class="main-nav stm-font dark-bg">
+      <div class="container">
+        <div class="col-sm-12 center">
+          <img
+            id="flogo"
+            src="./assets/img/nav.png"
+            alt="logo: Novan"
+            title="logo"
+            width="150px"
+          />
+          <p>
+            Email :
+            <a href="mailto:nvnprass@gmail.com">nvnprass@gmail.com</a>
+          </p>
+          <p>
+            Whatsapp :
+            <a href="https://wa.me/6285814848006">+6285814848006</a>
+          </p>
+          <p>
+            Copyright &copy; 2025 by
+            <a href="" target="_blank">Novan</a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
